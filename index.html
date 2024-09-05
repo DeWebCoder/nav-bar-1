@@ -13,12 +13,18 @@
 
 <body>
     <header class="header-section">
+
         <div class="nav-container">
             <div class="logo-box">
                 <a href="#" class="logo"><img src="./assets/Logo.png" alt="Logo"></a>
-                
+
             </div>
-            <div class="menus">
+            <div class="heading-company">
+                <h1>DeWebCoder</h1>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <div class="menus sidebar" id="sidebarMenu">
+                <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
                 <a href="#" class="menu-name">Home</a>
                 <a href="#" class="menu-name">Services</a>
                 <a href="#" class="menu-name">Gallery</a>
@@ -37,6 +43,8 @@
 
 
     </header>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
